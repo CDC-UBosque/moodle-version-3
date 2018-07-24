@@ -1,0 +1,56 @@
+.contact {
+	text-align:center;
+	background:#FFF;
+	padding:97px 0 0;
+}
+
+.contact .header-b-2 {
+	font-size:20px;
+	margin:40px 44px 76px;
+}
+
+.map-wr iframe {
+	width:100%;
+}
+
+.contact-items {
+	text-align:center;
+	background:#f4f4f4;
+	padding:2rem 0 0;
+}
+
+.contact-item {
+	display:inline-block;
+	width:250px;
+	height:auto;
+	margin:0 14px;
+	padding:0;
+	overflow:hidden;
+	font-size:16px;
+	line-height:25px;
+	color:initial;
+	border-top:none;
+}
+
+.contact-item i {
+	height:50px;
+	overflow:hidden;
+	display:block;
+	margin:0 0 8px;
+	font-size:xx-large;
+}
+
+@media screen and (max-width: 979px) {
+	
+	.contact-item {
+		margin:38px 4px 0;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	
+	.contact-item {
+		width:140px;
+		font-size:12px;
+	}
+}

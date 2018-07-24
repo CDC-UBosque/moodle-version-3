@@ -1,0 +1,184 @@
+// Chat view
+#region-main{
+	.messaging-area-container{
+		
+		.contacts-area{
+			
+			// Contacts
+			.contacts{
+				
+				// each contact
+				.contact{
+					height: 98px;
+					display: flex;
+					transition: all .2s ease-in-out;
+					&:hover{
+						background-color: #019788;
+					}
+					
+					// name
+					.name{
+						    font-weight: 600;
+						    font-size: 14px;
+						    line-height: 18px;
+					}
+					
+					// unread box number
+					.badge-important{
+						background-color: #019888;
+					}
+				}
+				
+				// selected
+				.selected{
+					background-color: #019788;
+				}
+			}
+			
+			// tabs message and contacts
+			.tabs{
+				
+				// message
+				.tabconversations{
+					transition: all .2s ease-in-out;
+					color: #7dc04a;
+					&:hover{
+						background: #7dc04a;
+						color: #ffffff;
+					}
+					
+					// image
+					.tabimage{
+						height: auto;
+					    line-height: 0;
+					    padding: 2px 0;
+					}
+				}
+				
+				// message
+				.tabcontacts{
+					color: #7dc04a;
+					&:hover{
+						background: #7dc04a;
+						color: #ffffff;
+					}
+					
+					// image
+					.tabimage{
+						height: auto;
+					    line-height: 0;
+					    padding: 2px 0;
+					}
+				}
+			}
+		}
+		
+		// message box visuals
+		.messages{
+			.content{
+				max-width: 85%;
+			    border-color: #e3e3e3;
+			    border-style: solid;
+			    border-width: 0px 0px 1px 0;
+			    border-radius: 0;
+			    
+			    .text{
+				    
+				    p{
+					    font-size: 14px;
+				    }
+			    }
+			}
+		}
+		
+		// message area - chat
+		.messages-area{
+			
+			// all buttons
+			.btn-link{
+				color: #fff;
+				background: #7BC142;
+				border: 1px solid #7BC142;
+				text-decoration: none;
+				text-shadow: none;
+				border-radius: 1rem;
+				padding: 0 1rem;
+				line-height: initial;
+				&:hover{
+					color: #7BC142;
+					background: #fff;
+					border: 1px solid #7BC142;
+				}
+			}
+			
+			.messages-header{
+				
+				@media screen and (max-width: 630px){
+					height: auto;
+				}
+				
+				// responsive message button menu
+				.view-toggle.btn-container{
+					@media screen and (max-width: 630px){
+						position: relative;
+						text-align: left;
+					}
+				}
+				
+				// name
+				.name-container{
+					
+					// button
+					.btn-link{
+						color: #fff;
+						background: #7BC142;
+						border: 1px solid #7BC142;
+						text-decoration: none;
+						text-shadow: none;
+						border-radius: 1rem;
+						padding: 0 1rem;
+						&:hover{
+							color: #7BC142;
+							background: #fff;
+							border: 1px solid #7BC142;
+						}
+					}
+					
+					// online / offline
+					.status {
+						
+						.offline-text{
+							color: #ff0d00;
+							font-size: 14px;
+							font-weight: 600;
+						}
+						
+						.online-text{
+							color: #019888;
+							font-size: 14px;
+							font-weight: 600;
+						}
+					}
+				}
+				
+				// actions button
+				.actions{
+					
+					
+				}
+				
+			}
+			
+			// bottom box response
+			.response{
+				
+				.message-box{
+					
+					.send-button-container{
+						
+					}
+				}
+			}
+		}
+	}
+}

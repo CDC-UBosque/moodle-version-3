@@ -1,0 +1,72 @@
+// Home banners
+.banners-ueb{
+	padding-bottom:4rem;
+	
+	.banners-item{
+		
+		.banners-txt {
+			display:block;
+			position:absolute;
+			top:24%;
+			left:5%;
+			max-width:18rem;
+			@media screen and (max-width: 619px){
+				top:20%;
+			}
+			
+			p {
+				font-family:'Acherus_Grotesque';
+				font-weight:200;
+				font-size:26px;
+				color:#494C4D;
+				line-height:26px;
+				@media screen and (max-width: 619px){
+					font-size:20px;
+					line-height:20px;
+				}
+			}
+			
+			.banners-btn {
+				background:#fff;
+				border-radius:2rem;
+				padding:.4rem 1rem;
+				margin-top:.5rem;
+				display:inline-block;
+				font-size:10px;
+				text-transform:uppercase;
+				color:#494C4D;
+			}
+		}
+		
+		a {
+			display:inline-block;
+		}
+		
+		&:first-child{
+			display:inline-block;
+			max-width:47%;
+			margin-right:2rem;
+			position:relative;
+			float:left;
+			@media screen and (max-width: 619px){
+				display:block;
+				max-width:100%;
+				margin-right:0;
+			}
+		}
+		
+		&:last-child{
+			display:inline-block;
+			max-width:47%;
+			margin-right:0;
+			position:relative;
+			float:right;
+			@media screen and (max-width: 619px){
+				display:block;
+				max-width:100%;
+				margin-right:0;
+				margin-top:3rem;
+			}
+		}
+	}
+}

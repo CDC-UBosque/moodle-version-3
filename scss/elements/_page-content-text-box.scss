@@ -1,0 +1,27 @@
+// -------------------- Display render box of wisiwyg ------------------------- 
+
+#region-main .box.generalbox {
+	padding-bottom:20px;
+	//padding-left:0;
+	text-align: initial;
+	font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    //font-size: 15px;
+	width: 98%;
+	box-sizing: border-box;
+	
+	p{
+		display: block;
+	}
+	
+	ul{
+		margin: 0 0 10px 25px;
+		
+	}
+}
+
+.section{
+	.mod-indent-outer {
+	    display: initial;
+	}
+}

@@ -1,0 +1,48 @@
+﻿// ------------------------------------ Global elements ------------------------------------ 
+@import 'fonts';
+//@import 'bootstrap';
+//@import 'bootstrap-responsive';
+//@import 'bootstrap3/bootstrap-theme.min';
+//@import 'bootstrap3/bootstrap.min';
+@import 'bootstrap-4/scss/bootstrap-reboot.scss';
+@import 'bootstrap-4/scss/bootstrap-grid.scss';
+@import 'bootstrap-4/scss/bootstrap.scss';
+@import 'jquery.bxslider';
+@import 'reset';
+//@import 'fontawesome-free-5.1.0-web/css/all';
+//@import 'font-awesome.min';
+//@import 'font-awesome';
+//@import 'fontawesome-all-5.min';
+
+// ------------------------------------ Mixins ------------------------------------ 
+@import 'elements/_mixins-buttons';
+
+// ------------------------------------ Custom css ------------------------------------ 
+@import 'elements/_general-styles';
+@import 'elements/_header';
+@import 'elements/_top-menu-modals';
+@import 'elements/_bx-slider';
+@import 'elements/_home-banners.scss';
+@import 'elements/_content';
+@import 'elements/_about';
+@import 'elements/_categories';
+@import 'elements/_upcoming-courses';
+@import 'elements/_partners';
+@import 'elements/_contact';
+@import 'elements/_course-category';
+@import 'elements/_stay-connected';
+@import 'elements/_column3-page';
+@import 'elements/_login-page';
+@import 'elements/_userlist-box';
+@import 'elements/_aside';
+@import 'elements/_modal-windows';
+@import 'elements/_page-content-text-box';
+@import 'elements/_coursecontent-edit';
+@import 'elements/_gradingtable';
+@import 'elements/_dashboard-page';
+@import 'elements/_chat-view';
+@import 'elements/_stick-header-table';
+//@import 'elements/_assign-grader';
+@import 'elements/_footer'; 
+@import 'elements/_fixes'; 
+

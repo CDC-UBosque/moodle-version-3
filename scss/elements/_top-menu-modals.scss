@@ -1,0 +1,132 @@
+// messages - notifications pop up view
+.popover-region-container{
+	top: 46px;
+	height: 400px;
+	width: 380px;
+	border: 2px solid #00988c;
+	
+	// head container
+	.popover-region-header-container{
+		height: 35px;
+		line-height: 0;
+		border-bottom: 0;
+		box-sizing: border-box;
+		background: #01978b;
+		padding: 0.2rem 1rem;
+		color: #fff;
+		
+		// actions
+		.popover-region-header-actions{
+			
+			// new message link
+			.newmessage-link{
+				a{
+					color: #fff;
+					text-decoration: underline;
+					font-size: 14px;
+					/* border: 1px solid; */
+					position: relative;
+					vertical-align: super;
+					top: 2px;
+					/* padding-top: 4px; */
+					/* display: inline-block; */
+				}
+			}
+			
+			// hover tooltips
+			.hover-tooltip-container{
+				
+				&:hover{
+					
+					.hover-tooltip{
+						opacity: 1;
+						visibility: visible;
+						transition: all 0.15s ease-in-out;
+						color: #333;
+						padding: 1rem;
+						top: 10px;
+						margin-top: 38px;
+						border: 2px solid #01978b;
+						display: block;
+					}
+				}
+				
+				.hover-tooltip{
+					opacity: 0;
+					visibility: visible;
+					transition: all 0.15s ease-in-out;
+					color: #333;
+					padding: 1rem;
+					top: 10px;
+					margin-top: 38px;
+					border: 2px solid #01978b;
+					display: none;
+					
+					&:before{
+						top: -9px;
+					    transform: rotate(180deg);
+					    bottom: initial;
+					}
+					
+					&:after{
+						top: -6px;
+						transform: rotate(180deg);
+						bottom: initial;
+					}
+				}
+			}
+		}
+	}
+	
+	// content container
+	.popover-region-content-container{
+		height: calc(100% - 80px);
+		
+		// each message container
+		.messages{
+			
+			// container
+			.content-item-container{
+				border-bottom: 1px solid #d3d3d3;
+				border-top: 1px solid #d3d3d3;
+				&:hover{
+					background: #7cbf4b;
+				}
+				
+				.content-item-body{
+					margin-bottom: 0;
+					
+					p{
+						padding-bottom: 0;
+					}
+				}
+			}
+			
+			.content-item-container.unread{
+				background-color: rgba(1,150,138,0.3);
+				//color: #fff;
+				border-bottom: 1px solid #ffffff;
+				border-top: 1px solid #ffffff;
+				&:hover{
+					background: #7cbf4b;
+				}
+			}
+		}
+	}
+	
+	// see all button
+	.see-all-link{
+		
+		.popover-region-footer-container{
+			height: initial;
+			&:hover{
+				background: #00988c;
+				color: #fff;
+			}
+			
+			.popover-region-seeall-text{
+				padding-top: 0;
+			}
+		}
+	}
+}

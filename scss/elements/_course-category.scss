@@ -1,0 +1,49 @@
+// -------------------- course category selector -----------------------
+.course_category_tree{
+	
+	// Block category
+	.category{
+		margin: 1rem auto;
+		&:last-child{
+			margin-bottom: 0;
+		}
+		&:first-child{
+			margin-top: 0;
+		}
+		
+		// 
+		>.info{
+			border: 0;
+		    padding: 0.4rem;
+		    background: #f3f3f3;
+		    
+		    // Title for link
+			.categoryname{
+				font-size: 20px;
+				
+				a{
+					text-decoration: none;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+	
+	// Block category expanded
+	.category[aria-expanded="true"]{
+		
+		>.info{
+			background: #019888;
+			
+			// Title for link
+			.categoryname{
+				
+				a{
+					color: #fff;
+				}
+			}
+		}
+	}
+}

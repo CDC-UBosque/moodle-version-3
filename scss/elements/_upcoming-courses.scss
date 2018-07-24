@@ -1,0 +1,51 @@
+.upcoming-courses {
+	background:#f7f7f7;
+	text-align:center;
+	padding:117px 0 92px;
+}
+
+.upcoming-courses .header-b-2 {
+	margin:0 0 83px;
+	font-size:34px;
+}
+
+.upcoming-courses-item {
+	margin:0 auto;
+	max-width:890px;
+	text-align:left;
+}
+
+.upcoming-courses img {
+	float:left;
+	margin:0 50px 30px 0;
+	max-width:50%;
+}
+
+.upcoming-courses p {
+	font-size:14px;
+	line-height:22px;
+	padding:0 0 22px;
+	color:#868686;
+}
+
+.upcoming-courses .btn-1 {
+	margin:26px 0 0;
+}
+
+@media screen and (max-width: 979px) {
+	.upcoming-courses {
+		padding:80px 0 92px;
+	}
+	
+	.upcoming-courses .header-b-2 {
+		margin:0 44px 75px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.upcoming-courses img {
+		float:none;
+		margin:0 auto 22px;
+		display:block;
+	}
+}

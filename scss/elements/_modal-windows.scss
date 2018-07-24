@@ -1,0 +1,162 @@
+.moodle-dialogue-base .moodle-dialogue-wrap {
+	margin-top:-3px;
+	margin-left:-3px;
+	background-color:#fff;
+	border-radius:.4rem;
+	-webkit-box-shadow:5px 0 20px 0 rgba(0,0,0,0.52);
+	-moz-box-shadow:5px 0 20px 0 rgba(0,0,0,0.52);
+	box-shadow:5px 0 20px 0 rgba(0,0,0,0.52);
+	    max-height: 23.5rem !important;
+}
+
+.moodle-dialogue .tooltiptext ul li {
+	margin-left:15px;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+	margin:0;
+	padding:.7rem 2.1rem;
+	font-size:14px;
+	line-height:18px;
+	font-weight:600;
+	color:#fff;
+	text-align:center;
+	border-radius:.4rem .4rem 0 0;
+	background:#ccc;
+	background-color:#7dbe4b;
+	text-shadow:none;
+}
+
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd {
+	padding:1em;
+	line-height:25px;
+	font-size:15px;
+}
+
+#notice {
+	font-size:inherit;
+	padding:0;
+	background:#FBFBFB;
+	margin:1rem auto;
+	border:2px solid #ddd;
+	border-radius:.4rem;
+	-webkit-box-shadow:0 0 13px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 13px rgba(0,0,0,0.2);
+	box-shadow:0 0 13px rgba(0,0,0,0.2);
+	font-size:90%;
+	padding-left:0;
+}
+
+#region-main .generalbox #notice {
+	margin-top:3rem;
+}
+
+.modal-header {
+	padding:1rem;
+	border-bottom:1px solid #ddd;
+	background:#fff;
+	color:#4A4A4A;
+	text-transform:uppercase;
+	letter-spacing:1.3px;
+}
+
+.modal-body {
+	position:relative;
+	max-height:400px;
+	padding:1rem;
+	overflow-y:auto;
+	font-size:15px;
+	line-height:20px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	color:initial;
+}
+
+#notice .modal-body p:last-child {
+	margin-bottom:0;
+}
+
+.modal-footer {
+	padding:1rem;
+	margin-bottom:0;
+	text-align:left;
+	background-color:#F2F2F2;
+	border-top:1px solid #ddd;
+	-webkit-border-radius:0 0 6px 6px;
+	-moz-border-radius:0 0 6px 6px;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+
+#notice .singlebutton + .singlebutton input,.submit.buttons input[name="cancel"] {
+	margin:0;
+	background:#fff!important;
+	border-color:#7BC142;
+	color:#7BC142;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu a:last-child {
+	-webkit-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-bottom-left-radius:4px;
+	line-height:7px;
+	padding:.4rem 1rem 1rem 2rem;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu > li {
+	display:block;
+	border-bottom:1px solid #7dbd4b;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu > li:last-child {
+	display:block;
+	border-bottom:0;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu a:hover {
+	color:#fff!important;
+	background-color:#7dbd4b;
+	text-decoration:none;
+}
+
+.message .contactselector {
+	width:40%;
+}
+
+.message .messagearea {
+	width:58%;
+}
+
+.messagesnotifications {
+	margin-top:0;
+}
+
+.popover-region-footer-container {
+	height:40px;
+}
+
+.hover-tooltip-container .hover-tooltip {
+	top:10px;
+}
+
+.popover-region {
+	margin:.3rem .6rem;
+}
+
+.userprofilepic span {
+	padding-left:10px;
+}
+
+.messaging-area-container .contacts-area .contacts .contact {
+	text-align:left!important;
+	padding:7px 9px!important;
+}
+
+.forumpost .maincontent {
+	display:block!important;
+}

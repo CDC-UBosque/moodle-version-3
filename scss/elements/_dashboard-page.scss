@@ -1,0 +1,21 @@
+// Dashboard page
+
+.pagelayout-mydashboard{
+	
+	.collapsibleregion{
+		overflow: initial;
+		padding: 0.5rem 0 2.1rem 1rem;
+		&:hover{
+		    background: #f5f5f5;
+	    }
+	    
+	    .collapsibleregioninner{
+		    background: #f5f5f5;
+	    }
+	}
+	
+	.activity_info {
+	    padding-bottom: 0.5rem;
+	    
+	}
+}

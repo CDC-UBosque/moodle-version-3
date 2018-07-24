@@ -1,0 +1,161 @@
+@mixin btn-primary{
+	color: #fff;
+    background-color: #7cbf4b;
+    border-color: #7cbf4b;
+    background-image: initial;
+    text-shadow: none;
+    border-radius: 2rem;
+    border: 2px solid #7cbf4b;
+    box-shadow: none;
+    &:hover{
+	    color: #7cbf4b;
+		background-color: #ffffff;
+    }
+}
+
+@mixin btn-second{
+	color: #7cbf4b;
+    background-color: #fff;
+    border-color: #7dbe4b;
+    background-image: initial;
+    text-shadow: none;
+    border-radius: 2rem;
+    border: 2px solid #7cbf4b;
+    box-shadow: none;
+    &:hover{
+	    color: #ffffff;
+		background-color: #7cbf4b;
+    }
+}
+
+// assign grader
+.path-mod-assign.pagelayout-embedded{
+	//overflow: auto;
+	
+	// page container
+	#page{
+		/*position: relative;*/
+		
+		// Navigation panel
+		div [data-region="grading-navigation-panel"]{
+			/*position: initial;
+			height: 100%;
+			border-top: 2px solid #7cbf4b;*/
+			
+			// box container
+			div{
+				/*height: 100%;
+				max-width: 1300px;
+				margin: auto;*/
+				
+				div{
+					
+					// Assgin name
+					&:nth-child(1){
+					    /*display: block;
+					    width: 100%;
+					    overflow: initial;*/
+					}
+					
+					// Student name & email
+					&:nth-child(2){
+						/*width: 48%;
+						margin-left: 0;*/
+						
+						@media (max-width: 767px){
+							/*width: 100%;
+							padding: 0 1rem;*/
+						}
+						
+						a{
+							/*display: inline-block;*/
+							
+							.img-rounded{
+								/*margin-top: 0;*/
+								    width: 3rem;
+							}
+						}
+					}
+					
+					// Student selector
+					&:nth-child(3){
+						/*width: 48%;
+						margin-left: 0;*/
+						
+						@media (max-width: 767px){
+							/*width: 100%;
+							padding: 0 1rem;*/
+						}
+						
+						.alignment{
+							
+							a{
+								/*text-decoration: none;*/
+							}
+						}
+						
+						// Student list selector
+						.form-autocomplete-suggestions{
+						    /*border: 2px solid #019888;
+						    margin-top: 0;
+						    box-shadow: 0px 0px 11px rgba(0,0,0,0.3);*/
+						    
+						    li[aria-selected=true]{
+							    /*background: #7cbf4b;
+							    color: #fff;*/
+						    }
+						    
+						    li{
+							    &:hover{
+								        /*background-color: #019888;*/
+							    }
+						    }
+						}
+					}
+				}
+			}
+			
+		}
+		
+		// Grade panel
+		div [data-region="grade-panel"]{
+			//position: initial;
+			/*padding: 2rem 1rem;*/
+			
+			// Current grade span note
+			.currentgrade{
+				a{
+					/*font-size: xx-large;*/
+				}
+			}
+		}
+		
+		// Grade actions panel
+		div [data-region="grade-actions-panel"]{
+			//position: initial;
+			/*height: auto;
+			padding: 1rem 0;*/
+			
+			.btn{
+				@include btn-second;
+			}
+			
+			.btn-primary{
+				@include btn-primary;
+			}
+		}
+		
+		// Grade actions panel
+		div [data-region="overlay"]{
+			//position: initial;
+		    /*height: auto;
+		    padding: 2rem;
+		    width: max-content;
+		    margin: 0 auto 2rem;
+		    box-shadow: 0px 0px 24px rgba(0,0,0,0.4);
+		    background: #019888;
+		    opacity: 1;
+		    color: #fff;*/
+		}
+	}
+}

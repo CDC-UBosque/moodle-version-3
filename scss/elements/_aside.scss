@@ -1,0 +1,53 @@
+#admin-block-layout {
+	display:inline-block;
+	max-width:16%;
+}
+
+#course-block-layout {
+	max-width:16%;
+}
+
+#course-block-layout aside > .block,#admin-block-layout aside > .block {
+	border-bottom:1px solid #e2e2e2;
+	margin-bottom:2rem;
+	text-align:left;
+}
+
+#course-block-layout aside > .block h2,#admin-block-layout aside > .block h2 {
+	text-transform:none;
+	color:#4d4d4d!important;
+	border-bottom:1px solid rgba(123,193,66,0);
+	-webkit-transition:border 500ms ease;
+	-moz-transition:border 500ms ease;
+	transition:border 500ms ease;
+	font-family:inherit;
+	font-size:15px;
+	line-height:inherit;
+	letter-spacing:inherit;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	text-decoration:none;
+}
+
+#course-block-layout aside > .block a,#admin-block-layout aside > .block a {
+	font-weight:300;
+	color:#848484;
+}
+
+#adminsettings .error,.loginpanel .error,.mform .error {
+	color:#000;
+}
+
+@media screen and (max-width: 767px) {
+	
+	#admin-block-layout {
+		max-width:initial;
+		width:100%;
+	}
+	
+	#course-block-layout {
+		max-width:initial;
+		width:100%;
+	}
+}

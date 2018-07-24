@@ -1,0 +1,69 @@
+// -------------------- Display render box of wisiwyg ------------------------- 
+
+#region-main{
+	
+	.mform .fitem div.fitemtitle{
+		width: auto;
+		padding-top: 0.5rem;
+		//float: none;
+	}
+	
+	button.btn{
+		color: #fff;
+	    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+	    background-color: #005aa8;
+	    background-image: -moz-linear-gradient(top,#0070a8,#0038a8);
+	    background-image: -webkit-gradient(linear,0 0,0 100%,from(#0070a8),to(#0038a8));
+	    background-image: -webkit-linear-gradient(top,#0070a8,#0038a8);
+	    background-image: -o-linear-gradient(top,#0070a8,#0038a8);
+	    background-image: linear-gradient(to bottom,#0070a8,#0038a8);
+	    background-repeat: repeat-x;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0070a8',endColorstr='#ff0038a8',GradientType=0);
+	    border-color: #0038a8 #0038a8 #001e5c;
+	    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+	    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	}
+	
+	.section .moodle-actionmenu[data-enhanced] .menu img{
+		width: auto;
+    height: auto;
+	}
+	
+	.section{
+		// small icons
+		img.iconsmall{
+			width: 24px;
+			height: auto;
+		}
+		.moodle-actionmenu[data-enhanced]{
+			img.smallicon{
+			width: 24px;
+			height: auto;
+			}
+		}
+	}
+	
+	.content{
+		
+		.no-overflow{
+			
+			p{
+				
+				img{
+					width: auto;
+					height: auto;
+				}
+			}
+		}
+	}
+	
+	.course-content ul.topics li.section .section_action_menu .menu-action-text{
+		white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -pre-nowrap;
+    white-space: -o-nowrap;
+    word-wrap: break-word;
+    line-height: 17px;
+	}
+
+}

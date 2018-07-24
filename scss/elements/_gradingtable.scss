@@ -1,0 +1,184 @@
+@mixin paging-element{
+	padding: 0.6rem;
+	background: #7cbf4b;
+	color: #fff;
+	
+	// Current page
+	.current-page{
+		color: #7cc04b;
+	    background: #fff;
+	    padding: 0.5rem 0.8rem;
+	    display: inline-block;
+	}
+	
+	// Regular pages
+	a{
+	    color: #ffffff;
+	    text-decoration: none;
+	    padding: 0.5rem 0.8rem;
+	    display: inline-block;
+	    &:hover{
+		    color: #7cc04b;
+			background: #fff;
+	    }
+	}	
+}
+
+// Grades tables
+#region-main{
+	
+	.gradingtable{
+		
+		// Selec letter for first name
+		.firstinitial{
+			padding-bottom: 0.6rem;
+		}
+		.lastinitial{
+			padding-bottom: 0.6rem;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.paging{
+			@include paging-element;
+		}
+		
+		.no-overflow{
+			overflow-x: visible;
+			border: 1px solid #e5e5e5;
+			
+			// Table itself
+			.generaltable{
+				
+				a{
+					word-break: initial;
+				}
+				
+				thead{
+					th{
+						border: 1px solid #e5e5e5;
+						
+						a{
+							img{
+								min-width: 16px;
+							}
+						}
+					}
+				}
+				
+				tr{
+					&:nth-child(odd){
+						td{
+							background: #f5f5f5;
+						}
+					}
+					&:nth-child(even){
+						td{
+							background: #ffffff;
+						}
+					}
+					td{
+						border: 1px solid #e5e5e5;
+						
+						// button fix
+						.btn{
+							color: #fff;
+							background: #7BC142;
+							border: 1px solid #7BC142;
+							text-decoration: none;
+							text-shadow: none;
+							border-radius: 1rem;
+							&:hover{
+								color: #7BC142;
+								background: #fff;
+								border: 1px solid #7BC142;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#page-mod-quiz-report{
+	
+		
+		// Selec letter for first name
+		.firstinitial{
+			padding-bottom: 0.6rem;
+		}
+		.lastinitial{
+			padding-bottom: 0.6rem;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.paging{
+			@include paging-element;
+		}
+		
+		#tablecontainer{
+			overflow-x: scroll;
+				border: 1px solid #e5e5e5;
+			
+			.no-overflow{
+				//overflow-x: visible;
+				//border: 1px solid #e5e5e5;
+				
+				// Table itself
+				.generaltable{
+					
+					a{
+						word-break: initial;
+					}
+					
+					thead{
+						th{
+							border: 1px solid #e5e5e5;
+							
+							a{
+								img{
+									min-width: 16px;
+								}
+							}
+						}
+					}
+					
+					tr{
+						&:nth-child(odd){
+							td{
+								background: #f5f5f5;
+							}
+						}
+						&:nth-child(even){
+							td{
+								background: #ffffff;
+							}
+						}
+						td{
+							border: 1px solid #e5e5e5;
+							
+							// button fix
+							.btn{
+								color: #fff;
+								background: #7BC142;
+								border: 1px solid #7BC142;
+								text-decoration: none;
+								text-shadow: none;
+								border-radius: 1rem;
+								&:hover{
+									color: #7BC142;
+									background: #fff;
+									border: 1px solid #7BC142;
+								}
+							}
+							
+							// requires grading
+							.requiresgrading, .notanswered{
+								font-size: x-large;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	
+}

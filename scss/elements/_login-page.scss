@@ -1,0 +1,450 @@
+.login-page #page-header {
+	padding-top:0;
+	min-height:62px;
+}
+
+.login-page #page-navbar {
+	border:none;
+	margin-top:0;
+}
+
+.login-information {
+	font-size:18px;
+	font-weight:400;
+	line-height:63px;
+	color:#FFF;
+	margin:0;
+	padding:0;
+	background:#e84c3d;
+}
+
+.login-information a {
+	color:#FFF;
+}
+
+.signuppanel .subcontent {
+	line-height:22px;
+}
+
+.signuppanel .subcontent ol {
+	margin:20px 0 30px 35px;
+}
+
+.signuppanel .subcontent .signupform input[type="submit"] {
+	width:192px;
+	margin-left:0;
+}
+
+/****************** changes ***********************/
+/* changes for desktop */
+.clearer {
+	display:none;
+}
+
+.mform fieldset.collapsible legend a.fheader {
+	margin-left:0!important;
+	padding-left:25px!important;
+}
+
+.collapsible-actions .collapseexpand {
+	padding-left:25px!important;
+}
+
+li.item_with_icon {
+	padding-bottom:0!important;
+}
+
+li.item_with_icon:last-child .hasicon {
+	padding-bottom:10px!important;
+}
+
+fieldset.collapsible {
+	padding-bottom:10px;
+}
+
+.managelink,.path-calendar .maincalendar div.header,.userprofilebox,.course_category_tree {
+	padding-left:10px;
+}
+
+.ftoggler {
+	text-transform:uppercase;
+}
+
+.minicalendarblock {
+	margin-bottom:20px;
+}
+
+.descriptionbox {
+	border:1px solid #eee;
+	padding:5px;
+}
+
+#region-main .alert {
+	margin-left:10px;
+}
+
+.two-column-main {
+	padding-left:10px!important;
+}
+
+table.flexible th,.generaltable th,table.flexible td,.generaltable td {
+	padding:8px 2px;
+}
+
+table.flexible,.generaltable {
+	font-size:80%;
+}
+
+.rolecap {
+	border-bottom:1px solid #eee;
+}
+
+.rolecap td,.rolecap th {
+	padding:5px 0;
+}
+
+.rolecap thead {
+	border-bottom:solid 1px #EEE;
+}
+
+#page-content div.container.no-background {
+	background:none!important;
+}
+
+#page-header.head-columnone {
+	min-height:33px;
+	padding-top:35px;
+}
+
+#page-header.head-columnone ul.breadcrumb {
+	margin-top:15px;
+}
+
+div#notice p {
+	margin-bottom:16px;
+}
+
+div#notice div.singlebutton div {
+	margin-left:0;
+}
+
+/* only for other device this style. */
+/****************************************/
+.loginbox {
+	margin:15px;
+	padding:73px 0 39px;
+	overflow:visible;
+	font-size:14px;
+	font-weight:400;
+	line-height:40px;
+	color:#939393;
+}
+
+.loginpanel {
+	max-width:416px;
+	margin:0 auto;
+}
+
+.loginbox h2 {
+	font-size:52px;
+	font-weight:600;
+	line-height:52px;
+	color:#000;
+	margin:0;
+	padding:0 0 25px;
+	text-align:center;
+}
+
+.loginbox h2 span {
+	color:#e84c3d;
+}
+
+.loginbox .subcontent {
+	padding:0 10px;
+	margin:0 5px;
+	text-align:center;
+}
+
+.loginbox .subcontent:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.loginbox .loginform {
+	margin-top:16px;
+	text-align:left;
+}
+
+.loginbox .loginform .form-label {
+	float:none;
+	width:auto;
+	text-align:center;
+	white-space:nowrap;
+	clear:both;
+}
+
+.loginbox label {
+	display:block;
+	font-size:16px;
+	font-weight:600;
+	line-height:40px;
+	color:initial;
+	margin:0;
+	padding:0;
+	font-family:'Acherus_Grotesque',sans-serif;
+}
+
+.loginbox .loginform .form-input {
+	float:initial;
+	width:80%;
+	margin:auto;
+}
+
+input[type="submit"],.adminsearchform input[type="submit"],#searchform_button,#id_submitbutton,#id_cancel,#checkall,#checknone {
+	border-radius:1rem!important;
+	text-shadow:none!important;
+	box-shadow:none!important;
+	color:#fff;
+	border:none;
+	font-family:'Acherus_Grotesque';
+	font-weight:500;
+	padding:.1rem 1.1rem;
+/*background: #e74c3c!important;
+	border: solid 1px #e74c3c!important;*/
+}
+
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
+	border-radius:0;
+	border:1px solid #939393;
+	box-shadow:none;
+}
+
+#searchform_button {
+	background:#e84c3d;
+	border-color:#e84c3d;
+}
+
+.loginbox .loginform .form-input input {
+	width:272px;
+	border:1px solid #939393;
+	background:transparent;
+	outline:none;
+	border-radius:0;
+	padding:0 10px;
+	font-size:14px;
+	font-weight:400;
+	line-height:36px;
+	height:36px;
+	display:block;
+	box-sizing:border-box;
+	margin:0 auto 24px;
+}
+
+.loginbox input[type="submit"] {
+	border:none;
+	background:#000;
+	color:#fff;
+	text-transform:none;
+	width:auto;
+	outline:none;
+	text-align:center;
+	//border-radius:.2rem!important;
+	padding:0 1rem;
+	margin:0 1rem;
+	font-size:14px;
+	font-weight:400;
+	line-height:36px;
+	height:36px;
+	float:right;
+	display:inline-block;
+}
+
+.rememberpass {
+	//float:right;
+	display: inline-block;
+}
+
+.rememberpass input {
+	float:left;
+	margin:13px 16px 0 0;
+}
+
+.rememberpass label {
+	float:right;
+}
+
+.loginbox .loginpanel .desc {
+	padding:0;
+	margin:9px 0 -3px;
+	clear:both;
+	line-height:20px;
+	width:300px;
+	float:right;
+	text-align:left;
+	color:initial;
+}
+
+.forgetpass {
+	clear:both;
+	float:right;
+	width:300px;
+	text-align:left;
+	padding:6px 0 0;
+}
+
+.loginbox a {
+	padding:0;
+	margin:0;
+	font-size:14px;
+	line-height:20px;
+	color:#e84c3d;
+	text-decoration:underline;
+}
+
+.loginbox .loginpanel .helptooltip {
+	float:right;
+	margin:2px 0 0 10px;
+}
+
+.box.generalbox table td {
+	padding:5px 0;
+	border: 1px solid #cccccc;
+}
+
+.guestform input[type="submit"] {
+	border:none;
+	background:#e84c3d;
+	color:#FFF;
+	width:auto;
+	outline:none;
+	text-align:center;
+	border-radius:0;
+	padding:0 1rem;
+	margin:31px 0 0 86px;
+	font-size:14px;
+	line-height:36px;
+	height:36px;
+	float:left;
+}
+
+@media screen and (min-width: 1200px) {
+	.login-page #region-main {
+		width:100%;
+		padding:0;
+		margin:0;
+		border:none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.loginbox .loginform .form-input {
+		float:right;
+	}
+	
+	.loginbox .loginform .form-input input {
+		margin-bottom:0;
+	}
+	
+	.rememberpass {
+		float:left;
+		width:100%;
+	}
+	
+	.loginbox label {
+		float:left;
+	}
+	
+	.guestform input[type="submit"] {
+		margin-left:0;
+	}
+	
+	.forgetpass,.loginbox .loginpanel .desc {
+		width:310px;
+	}
+	
+	.loginbox input[type="submit"] {
+		margin-left:0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.loginpanel h2 {
+		margin-left:0!important;
+	}
+	
+	.login-information {
+		font-size:16px;
+		line-height:35px;
+		text-align:center;
+	}
+	
+	.login-information .right {
+		text-align:center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.loginpanel {
+		max-width:100%;
+	}
+	
+	.loginbox .loginform .form-input {
+		margin-right:0;
+	}
+	
+	.loginbox .loginform .form-label {
+		width:51%;
+	}
+	
+	.forgetpass,.loginbox .loginpanel .desc {
+		width:100%;
+	}
+	
+	.loginbox input[type="submit"] {
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	
+	.loginbox .loginform .form-input input {
+		width:150px;
+		margin:0 0 5px;
+	}
+	.rememberpass input {
+		float:left;
+		margin:13px 2px 0 0;
+	}
+	
+	.forgetpass {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	
+	.loginbox .loginpanel .desc {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	
+	.guestform {
+		clear:both;
+		padding:12px 0 0;
+	}
+	
+	.loginbox {
+		font-size:12px;
+	}
+	
+	.loginbox a {
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.loginbox .loginform .form-label {
+		width:37%;
+	}
+}
